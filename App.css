@@ -1,0 +1,70 @@
+.App { 
+    text-align: center; 
+    padding: 20px; 
+} 
+ 
+.figure-list input { 
+    margin: 5px; 
+    padding: 8px; 
+    width: 180px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+ 
+.figure-list button { 
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    font-size: 12px; 
+} 
+ 
+    .figure-list button:hover { 
+        background-color: #45a049; 
+    } 
+ 
+.grid { 
+    display: flex;                                                          
+flex-wrap: wrap;                              
+    gap: 10px;                                      
+    justify-content: center; 
+    margin-top: 5px;                           
+} 
+.basic-figure { 
+    background: #f9f9f9; 
+    padding: 10px; 
+    width: 160px;    
+} 
+ 
+.figure-image { 
+    width: 100%; 
+    border-radius: 6px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+} 
+ 
+    .figure-image:hover { 
+        transform: scale(1.05); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    } 
+ 
+.figure-caption { 
+    margin-top: 8px; 
+    font-size: 14px; 
+    color: #444; 
+} 
+ 
+.remove-button { 
+    background-color: #4caf59; 
+    color: white; 
+    border: none; 
+    border-radius: 50%; 
+    padding: 4px 7px; 
+    cursor: pointer; 
+    font-size: 12px;         
+   } 
+ 
+    .remove-button:hover { 
+        background-color: #c0392b; 
+    }
